@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #90D9B5;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.content, .contactContent {
+  display: flex;
+  height: 500px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactContent {
+  display: flex;
+  height: 550px;
+  background: lightgrey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  padding-top: 40px;
+  float: left;
+}
+
+h1 {
+  text-transform: uppercase;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: "didot";
+  font-weight: bold;
+  font-size: 43px;
+  /*margin-left: 20px;*/
+  text-align: center;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.headerInfo {
+  text-align: center;
+  font-family: "didot";
+  font-weight: bold;
+}
+
+nav {
+  margin: 20px 0px 0px 0px;
+  background-color: #3A3B3B;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 30px 0;
+}
+
+.nav {
+  
+}
+
+a {
+  margin-right: 55px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p, li {
+  font-family: 'Cardo', serif;
+}
+
+.navLink {
+  color: white;
+}
+
+h2, nav, h3, h4, .navLink {
+  font-family: 'Bree Serif', serif;
+}
+
+.aboutUs, .ourServices, .references {
+  width: 30%;
+  float: left;
+  height: 325px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: solid black 2px;
+  align-items: center;
+  background: #C8D5D4;
+}
+
+.references {
+  margin-right: 10px;
+}
+
+.mainH2 {
+  padding-left: 10px;
+}
+
+.mainP {
+  line-height: 1.5;
+}
+
+.mainP, li {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.mainH2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 0px;
+  background: #3A3B3B;
+  color: white;
+}
+
+.contactSection, .directions {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px black dashed;
+}
+
+.contactSection {
+  width: 35%;
+  text-align: center;
+}
+
+.directions {
+  width: 60%;
+}
+
+.directionsTitle, .pDirections, .directionsH, h4 {
+  padding-left: 20px;
+}
+
+.contactH2, .directionsTitle {
+  border-bottom: 2px black dashed;
+}
+
+.directionsContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: #3A3B3B;
+  color: white;
+  padding: 40px;
+  font-family: "didot";
+  display: flex;
+  align-items: center;
+}
+
+/*nav ul li {float:left;display:inline;}
+a ul li .reference:hover {background:#E6E6E6;}
+nav ul li a {display:block;padding:15px 0px;}
+nav ul li ul {position:absolute;width:200px;background:#FFF;}
+nav ul li ul li {/*width:110px;*/}
+/*nav ul li ul li a {display:block;padding:15px; color:#444;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}*/
+
+.dropLink {
+  font-size: 17px;
+  width: 100%;
+}
+
+#map {
+  height: 325px;
+  width: 40%;
+  float: right;
+  margin-right: 10px;
+}
