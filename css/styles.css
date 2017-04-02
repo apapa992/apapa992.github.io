@@ -205,6 +205,7 @@ footer {
   color: black;
   font-family: 'Cardo', serif;
   font-size: 15px;
+  position: relative;
 }
 
 #primary_nav_wrap ul ul ul {
