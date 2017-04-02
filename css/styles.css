@@ -172,9 +172,17 @@ nav ul li:hover ul.fallback {display:block;}
   width: 100%;
 }
 
+.dropDown:hover {
+  background-color: grey;
+  width: 100%;
+}
+
 #map {
   height: 325px;
   width: 40%;
   float: right;
   margin-right: 10px;
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
