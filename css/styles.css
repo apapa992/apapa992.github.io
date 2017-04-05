@@ -36,11 +36,9 @@ body {
 
 h1 {
   text-transform: uppercase;
-  /*font-family: 'Oswald', sans-serif;*/
   font-family: "didot";
   font-weight: bold;
   font-size: 43px;
-  /*margin-left: 20px;*/
   text-align: center;
   margin-right: 40px;
   padding-top: 20px;
@@ -219,7 +217,7 @@ footer {
 }
 
 #primary_nav_wrap ul li li:hover {
-  background-color: lightgrey;
+  background-color: #A9E6DA;
 }
 
 #map {
