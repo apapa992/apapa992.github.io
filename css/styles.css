@@ -225,6 +225,7 @@ footer {
   width: 40%;
   float: right;
   margin-right: 10px;
+  border: solid black 1px;
 }
 
 .grow { transition: all .2s ease-in-out; }
