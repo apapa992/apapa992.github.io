@@ -24,7 +24,7 @@ body {
 .content {
   padding-top: 40px;
   float: left;
-  background: #DCDCDC;
+  background: #F5F5F5;
 }
 
 .contactContent {
@@ -223,10 +223,11 @@ footer {
 
 #map {
   height: 325px;
-  width: 40%;
+  width: 42%;
   float: right;
-  margin-right: 10px;
+  margin-right: 15px;
   border: solid black 1px;
+  border-radius: 5px;
 }
 
 .grow { transition: all .2s ease-in-out; }
