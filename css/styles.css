@@ -21,17 +21,18 @@ body {
   justify-content: space-around;
 }
 
+.content {
+  padding-top: 40px;
+  float: left;
+  background: #DCDCDC;
+}
+
 .contactContent {
   display: flex;
   height: 550px;
   background: lightgrey;
   display: flex;
   justify-content: space-around;
-}
-
-.content {
-  padding-top: 40px;
-  float: left;
 }
 
 h1 {
