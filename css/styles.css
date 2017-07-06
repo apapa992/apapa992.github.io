@@ -790,7 +790,7 @@ h2, nav, h3, h4 {
   float: left;
   height: 325px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 25px;
   border: solid black 2px;
   align-items: center;
   background: #C8D5D4;
@@ -842,7 +842,7 @@ h2, nav, h3, h4 {
 }
 
 .contactP, .pDirections {
-  font-size: 16px;
+  font-size: 13.5px;
 }
 
 .directionsTitle, .pDirections, .directionsH, h4 {
@@ -945,5 +945,7 @@ footer {
 .grow:hover { transform: scale(1.1); }
 
 }
+
+
 
 
